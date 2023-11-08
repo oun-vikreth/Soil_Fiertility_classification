@@ -4,10 +4,10 @@
 
 
 
-# Soil Fertility Prediction Report
+# Soil Fertility Classification
 
 ## Introduction
-This prject is a small part of our full project. It just presents some of the process and results of a machine learning project aimed at predicting soil fertility. The dataset used in this project contains various soil properties such as Nitrogen (NH4+), Phosphorous (P), Potassium (K), soil acidity (pH), electrical conductivity, organic carbon, sulfur (S), Zinc (Zn), Iron (Fe), Copper (Cu), Manganese (Mn), and Boron (B). The target variable is the class of fertility, which can be "Less Fertile", "Fertile", or "Highly Fertile".
+This notebook is a small part of our full project. It just presents some of the process and results of a machine learning project aimed at predicting soil fertility. The dataset used in this project contains various soil properties such as Nitrogen (NH4+), Phosphorous (P), Potassium (K), soil acidity (pH), electrical conductivity, organic carbon, sulfur (S), Zinc (Zn), Iron (Fe), Copper (Cu), Manganese (Mn), and Boron (B). The target variable is the class of fertility, which can be "Less Fertile", "Fertile", or "Highly Fertile".
 
 ## Exploratory Data Analysis (EDA)
 The EDA started with loading the dataset and checking the first few rows to understand the data structure. The dataset was then checked for missing values, and descriptive statistics were calculated to get a sense of the data distribution. 
@@ -44,3 +44,5 @@ Three different models were trained on the data: RandomForestClassifier, SVM, an
 
 ## Conclusion
 This project demonstrated the application of machine learning for predicting soil fertility based on various soil properties. The RandomForestClassifier performed the best among the three models used. Future work could involve tuning the hyperparameters of the models, trying other models like XGBoost or LightGBM, or using ensemble methods to potentially improve the accuracy of the predictions.
+
+
